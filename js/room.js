@@ -60,7 +60,7 @@ window.addEventListener("keydown", event => {
     console.log(event.code);
     switch(event.code){
         case "Escape":
-            document.location = '/index.html'
+            document.location = '/portfolio/index.html'
             break;
     }
 });
