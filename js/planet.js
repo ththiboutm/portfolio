@@ -150,7 +150,7 @@ function checkBat(){
         var clickedObj = checkParentInList(intersects[0]);
         console.log(clickedObj);
         if(clickedObj=='maison'){
-            document.location = '../maison.html'
+            document.location = '/portfolio/maison.html'
         }
     }
 }
