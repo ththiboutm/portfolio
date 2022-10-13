@@ -53,9 +53,7 @@ let actualPos = new Array();
 actualPos.push(0);
 //-----------------------------------------------------------------------------INITIATE
 const texture = new THREE.TextureLoader().load( './models/uploads_files_2149069_school_color.jpg' );
-Loader.LoadMeFBXAnimate(scene,'./models/Walking.fbx',1,new Vector3(0,0,0),new Vector3(0,0,2),mixer,me);
-
-Loader.LoadAsyncModelFBX(scene,'./models/planet.fbx',4,0,new Vector3(0,0,0),planet);
+Loader.LoadMeFBXAnimate(scene,'./models/Walking.fbx',1,new Vector3(0,0,0),new Vector3(0,0,2),mixer,me);Loader.LoadAsyncModelFBX(scene,'./models/planet.fbx',4,0,new Vector3(0,0,0),planet);
 Loader.LoadAsyncModelGLTF(scene,'./models/house.gltf',0.4,new Vector3(-2,-10,0),new Vector3(0,1.97,0),batiments,'maison');
 
 const sky = skybox();
